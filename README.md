@@ -3,18 +3,21 @@
 ### Документация:
 
 * <code>[План по автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Plan.md)
-</code>
-
+</code>  
 * <code>[Отчет по итогам тестирования](https://github.com/rmsmar/Diplom/blob/master/docs/Report.md)
 </code>
-
 * <code>[Отчет по итогам автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Summary.md)
 </code>
+
 ### Окружение:
--	Docker
--	IntelliJ IDEA
--	Java 11
--	Браузер Chrome
+
+- Docker
+
+- IntelliJ IDEA
+
+- Java 11
+
+- Браузер Chrome
 
 ### Инструкция по установке:
 
