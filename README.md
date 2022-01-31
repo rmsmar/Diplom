@@ -2,14 +2,11 @@
 
 ### Документация:
 
-* <code>[План по автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Plan.md)
-</code>
+* <code>[План по автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Plan.md) </code>
 
-* <code>[Отчет по итогам тестирования](https://github.com/rmsmar/Diplom/blob/master/docs/Report.md)
-</code>
+* <code>[Отчет по итогам тестирования](https://github.com/rmsmar/Diplom/blob/master/docs/Report.md) </code>
 
-* <code>[Отчет по итогам автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Summary.md)
-</code>
+* <code>[Отчет по итогам автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Summary.md) </code>
 
 ### Окружение:
 
