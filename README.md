@@ -3,9 +3,11 @@
 ### Документация:
 
 * <code>[План по автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Plan.md)
-</code>  
+</code>
+
 * <code>[Отчет по итогам тестирования](https://github.com/rmsmar/Diplom/blob/master/docs/Report.md)
 </code>
+
 * <code>[Отчет по итогам автоматизации](https://github.com/rmsmar/Diplom/blob/master/docs/Summary.md)
 </code>
 
@@ -26,8 +28,6 @@
 3. Запустить приложение:
 - для базы данных MySQL ввести команду: java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:mysql://localhost:3306/app;
 
-
 - для базы данных PostgreSQL ввести команду: java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:postgresql://localhost:5432/postgres.
 4. Запустить тесты командой: .\gradlew test
-5. Сформировать отчет Allure Report, выполнив команду:
-   ./gradlew allureServe
+5. Сформировать отчет Allure Report, выполнив команду: ./gradlew allureServe
