@@ -17,7 +17,6 @@ public class DataHelper {
     static String wrongYear = Integer.toString(year);
 
     private DataHelper() {
-
     }
 
     public static CardInformation getValidCardInformation() {
