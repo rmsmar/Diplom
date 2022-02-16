@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import ru.netology.data.DataHelper;
 
+import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -13,8 +14,8 @@ public class CardData {
     private SelenideElement cardExpirationYear = $("[placeholder='22']");
     private SelenideElement holder = $$(".input__inner").find(Condition.text("Владелец")).$(".input__control");
     private SelenideElement cvcCode = $("[placeholder='999']");
-    private SelenideElement successNotification = $("div.notification.notification_status_ok.notification_has-closer.notification_stick-to_right.notification_theme_alfa-on-white > div.notification__content");
-    private SelenideElement errorNotification = $(".notification_status_error.notification_has-closer.notification_stick-to_right.notification_theme_alfa-on-white > div.notification__content");
+    private SelenideElement successNotification = $(withText("Успешно"));
+    private SelenideElement errorNotification = $(withText("Ошибка"));
     private SelenideElement buttonContinue = $$(".button__text").find(Condition.text("Продолжить"));
     private SelenideElement wrongFormatNotification = $(".input__sub");
 
